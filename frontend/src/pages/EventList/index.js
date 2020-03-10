@@ -24,7 +24,6 @@ export default function EventList({ history }) {
 
   async function loadEvents() {
     const response = await api.get('/events');
-    console.log(response.data);
     setEvents(response.data);
   }
 

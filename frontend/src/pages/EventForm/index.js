@@ -51,9 +51,7 @@ export default function EventForm({ history }) {
 
   const home = () => history.push('/');
 
-  const handleClose = (event, reason) => {
-    setOpen(false);
-  };
+  const handleClose = () => setOpen(false);
 
   return (
     <>
