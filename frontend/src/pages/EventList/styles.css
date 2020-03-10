@@ -1,0 +1,28 @@
+table{
+  width: 100%;
+}
+
+th{
+  color: #fff;
+  text-align: left;
+}
+
+td{
+  color: #fff9;
+}
+
+.btn-content{
+  text-align: end;
+}
+
+.td-btn-ops{
+  text-align: center;
+}
+
+tbody tr td.td-btn-ops{
+  display: flex;
+}
+
+.td-btn-ops button {
+  margin: 0 2px;
+}
