@@ -1,0 +1,8 @@
+header.header-content{
+  background-color: rgb(30, 17, 51);
+  grid-area: header;
+}
+
+li{
+  color: #fff;
+}

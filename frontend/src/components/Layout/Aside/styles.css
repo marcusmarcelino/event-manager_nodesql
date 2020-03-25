@@ -1,0 +1,8 @@
+aside.nav-aside{
+  background-color: rgba(29, 14, 112, 0.959);
+  grid-area: aside;
+}
+
+li{
+  color: #fff;
+}

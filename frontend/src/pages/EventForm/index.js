@@ -12,7 +12,6 @@ export default function EventForm({ history }) {
   const [id, setId] = useState('');
   const [open, setOpen] = useState(false);
 
-
   useEffect(() => {
     if(history.location.state){
       const { id, name, location, date, time} = history.location.state;

@@ -1,15 +1,20 @@
 import React from 'react';
 import './App.css';
 import Routes from './routes';
+import Aside from './components/Layout/Aside';
+import Header from './components/Layout/Header';
+import Footer from './components/Layout/Footer';
 
 function App() {
   return (
     <>
-      <header className="content-logo">
-        <h1>Event Manager</h1>
-      </header>
-      <div className="content">
-        <Routes />
+      <div className="grid">
+        <Header />
+        <Aside />
+        <div className="main">
+          <Routes />
+        </div>
+        <Footer />
       </div>
     </>
   );
